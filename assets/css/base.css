@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    list-style: none;
+}
+
+:root {
+    --white-color: #fff; 
+    --black-color: #333;
+    --blue-color: #0984e3;
+    --gold-color: gold;
+    --light-color: #666;
+    --light-bg: #eee;
+    --border-color: .2rem solid var(--black-color);
+    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: var(--light-bg);
+}
+
+html::-webkit-scrollbar-thumb {
+    background: var(--blue-color);
+    border-radius: 5rem;
+}
+
+body {
+    background: var(--light-bg);
+}
+
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+section {
+    padding: 4rem 8%;
+}
+
+.btn {
+    margin-top: 1.4rem;
+    padding: 1rem 2.4rem;
+    background: var(--blue-color);
+    font-size: 1.8rem;
+    color: var(--white-color);
+    cursor: pointer;
+    border-radius: .4rem;
+    display: inline-block;
+    text-align: center;
+    transition: all ease .4s;
+}
+
+.btn:hover {
+    background: var(--black-color);
+}
+
+.heading {
+    font-size: 3.6rem;
+    color: var(--black-color);
+    margin-bottom: 3rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.heading span {
+    color: var(--blue-color);
+}
+
+.price {
+    font-size: 2rem;
+    color: var(--blue-color);
+    margin-top: 1rem;
+}
+
+.price span {
+    font-size: 1.6rem;
+    color: var(--light-color);
+    text-decoration: line-through;
+}

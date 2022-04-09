@@ -1,0 +1,466 @@
+/* Mobile and Tablet */
+@media (max-width: 1023px) {
+    section {
+        padding: 4rem 1.6rem;
+    }
+
+    .btn {
+        font-size: 2rem;
+        padding: 1.6rem 3.6rem;
+    }
+
+    .price {
+        font-size: 2.2rem;
+        margin-top: 1rem;
+    }
+    
+    .price span {
+        font-size: 1.8rem;
+    }
+
+    /* Header */
+    .header {
+        padding: 1rem 1.6rem;
+    }
+
+    .header__search-btn {
+        display: inline-block;
+    }
+
+    .header__search-form {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        width: 100%;
+        border-radius: unset;
+        height: 6rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: all ease .3s;
+        transition: all linear .2s;
+        border-bottom: 1px solid var(--black-color);
+    }
+
+    .header__search-input {
+        font-size: 1.8rem;
+    }
+    
+    .header__search-icon {
+        font-size: 2.4rem;
+    }
+
+    .header__search-form.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .header__menu-btn,
+    .header__search-btn,
+    .header__user-btn,
+    .header__like-btn,
+    .header__cart-btn {
+        font-size: 3.6rem;
+        margin-left: 3rem;
+    }
+    
+    /* Sidebar */
+    .sidebar__body {
+        width: 40rem;
+    }
+
+    .sidebar__body-close {
+        font-size: 4rem;
+    }
+
+    .sidebar__user-name {
+        font-size: 2.6rem;
+        padding: 2rem 0;
+    }
+    
+    .sidebar__user-log {
+        font-size: 2.4rem;
+    }
+
+    .sidebar__navbar-item {
+        font-size: 2.6rem;
+        padding: 2rem 2.6rem;
+    }
+
+    /* Home */
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+    }
+
+    /* Banner */
+    .banner__box {
+        margin-top: 1.6rem;
+        height: 26rem;
+    }
+
+    .banner__box-text {
+        font-size: 1.8rem;
+    }
+    
+    .banner__box-sale {
+        font-size: 2.2rem;
+    }
+
+    /* About */
+    .about {
+        flex-wrap: wrap;
+    }
+
+    .about__content {
+       text-align: center;
+    }
+    
+    .about__content-heading {
+        font-size: 3rem;
+    }
+    
+    .about__content-desc {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+
+    .about__btn {
+        width: 100%;
+    }
+
+    /* Question and answer */
+    .faq__box-header {
+        padding: 2rem;
+    }
+
+    .faq__box-heading {
+        font-size: 1.8rem;
+    }
+    
+    .faq__box-icon {
+        font-size: 2.4rem;
+    }
+    
+    .faq__box-content {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        padding: 2rem;
+    }
+
+    /* Review */
+    .review__slide-img {
+        height: 14rem;
+        width: 14rem;
+    }
+
+    .review__slide-name {
+        font-size: 2.2rem;
+        padding: 2rem 0;
+    }
+
+    .review__slide-career {
+        font-size: 1.8rem;
+    }
+
+    .review__slide-text {
+        font-size: 1.6rem;
+        margin-top: 2rem;
+        line-height: 2.2rem;
+    }
+    /* Category */
+    .category__box {
+        margin-top: 1.6rem;
+    }
+
+    .category__box-img {
+        height: 10rem;
+        margin-bottom: 1.4rem;
+    }
+    
+    .category__box-name {
+        font-size: 1.8rem;
+    }
+
+    /* Product */
+    .product__icon {
+        font-size: 3rem;
+        width: 6rem;
+        height: 6rem;
+        line-height: 6rem;
+    }
+
+    /* Info */
+    .info__box {
+        margin-top: 1.6rem;
+    }
+
+    .info__box-title {
+        font-size: 1.8rem;
+    }
+    
+    .info__box-body {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
+
+    /* Contact */
+    .contact__heading {
+        font-size: 3rem;
+    }
+    
+    .contact__text {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
+
+    .contact__input-box,
+    .contact__input-text {
+        padding: 1.6rem 1.2rem;
+        margin-top: 1.6rem;
+        font-size: 1.8rem;
+    }
+
+    .contact__input-btn {
+        width: 100%;
+    }
+
+    .contact__map {
+        margin-top: 1.6rem;
+        min-height: 32rem;
+    }
+
+    /* Newsletter */
+    .newsletter__content {
+        text-align: center;
+    }
+
+    .newsletter__form {
+        margin-top: 1rem;
+    }
+    
+    .newsletter__form-input {
+        padding: 1.6rem 1.2rem;
+        font-size: 2rem;
+    }
+
+    /* Login form */
+    .login__heading,
+    .register__heading {
+        font-size: 3rem;
+    }
+    
+    .login__input-desc,
+    .register__input-desc {
+        font-size: 1.8rem;
+        margin-top: 3rem;
+    }
+    
+    .login__input,
+    .register__input {
+        font-size: 1.8rem;
+        margin-top: 1rem;
+    }
+
+    .login__properties {
+        margin-top: 3rem;
+    }
+
+    .login__remember-desc,
+    .login__forgot-link {
+        font-size: 1.8rem;
+    }
+
+    .login__forgot {
+        font-size: 1.8rem;
+        margin-top: 2rem;
+    }
+
+    .login__register-desc,
+    .register__login-desc {
+        font-size: 1.8rem;
+    }
+
+    .login__btn,
+    .register__btn {
+        margin-top: 3rem;
+    }
+
+    /* Footer */
+    .footer,
+    .footer-bottom {
+        padding: 1.6rem;
+    }
+
+    .footer__logo-link {
+        display: none;
+    }
+
+    .footer__navbar-item {
+        font-size: 1.8rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    /* Header */
+    .header__logo-link {
+        font-size: 2rem;
+    }
+
+    .header__search-form {
+        height: 6rem;
+    }
+
+    .header__search-input {
+        font-size: 2rem;
+    }
+    
+    .header__search-icon {
+        font-size: 2.8rem;
+    }
+
+    .header__search-btn,
+    .header__user-btn,
+    .header__like-btn,
+    .header__cart-btn {
+        font-size: 2.8rem;
+        margin-left: 1.6rem;
+    }
+    
+    .header__menu-btn {
+        margin-left: unset;
+    }
+
+    /* Sidebar */
+    .sidebar__body {
+        width: 70%;
+    }
+
+    .sidebar__body-close {
+        font-size: 3.6rem;
+    }
+
+    .sidebar__user-name {
+        font-size: 2rem;
+        padding: 2rem 0;
+    }
+    
+    .sidebar__user-log {
+        font-size: 1.8rem;
+    }
+
+    .sidebar__navbar-item {
+        font-size: 1.8rem;
+        padding: 1.6rem 2rem;
+    }
+
+    /* Home */
+    .home__slide-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .home__content {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    /* Arrivals */
+    .arrival__box {
+        flex-direction: column;
+    }
+    
+    .arrival__content {
+        padding:0 2rem 2rem;
+        text-align: center;
+    }
+
+    .arrival__content-heading {
+        font-size: 2.4rem
+    }
+
+    .arrival__content-stars {
+        font-size: 1.8rem;
+        margin-top: 1rem;
+    }
+
+    /* Newsletter */
+    .newsletter__form {
+        flex-wrap: wrap;
+        background: unset;
+    }
+    
+    .newsletter__form-input {
+        width: 100%;
+        padding: 1.6rem 1.2rem;
+        font-size: 1.8rem;
+        border-radius: .4rem;
+    }
+    
+    .newsletter__form-btn {
+        margin-top: 1.6rem;
+        width: 100%;
+        background: var(--black-color);
+        color: var(--white-color);
+    }
+
+    /* Cart */
+    .cart__total-btn {
+        width: 100%;
+    }
+
+    /* Footer */
+    .footer,
+    .footer-bottom {
+        flex-direction: column;
+        max-height: unset;
+    }
+
+    .footer__logo-link {
+        display: block;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer__navbar {
+        width: 100%;
+    }
+
+    .footer__navbar-item {
+        display: block;
+        font-size: 2rem;
+        text-align: center;
+        padding: 1.8rem;
+        margin: unset;
+    }
+
+    .footer__media {
+        margin: 2rem 0 1rem;
+    }
+
+    .footer__media-link {
+        font-size: 3.6rem;
+        padding: 1rem;
+    }
+
+    /* Footer bottom */
+    .footer-bottom__copyright {
+        font-size: 1.6rem;
+        padding: 2rem 0 3rem;
+        text-align: center;
+    }
+
+    .footer-bottom__credit {
+        height: 4rem;
+    }
+}
+
+/* Mobile small screen */
+@media (max-width: 344px) {
+    /* Header */
+    .header {
+        justify-content: center;
+    }
+    .header__logo-link {
+        display: none;
+    }
+}

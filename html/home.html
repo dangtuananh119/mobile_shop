@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Icon link -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Swiper css link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    <!-- Css link -->
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/grid.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+<body>
+    <!-- Header start -->
+    <header class="header">
+        <!-- Header logo -->
+        <a href="home.html" class="header__logo-link">
+            <i class='header__logo-icon bx bx-store'></i>
+            Shopie
+        </a>
+        
+        <!-- Header search -->
+        <form action="" class="header__search-form">
+            <input type="search" name="" id="search-input" class="header__search-input" placeholder="Search here">
+            <label for="search-input" class="header__search-icon bx bx-search"></label>
+        </form>
+
+        <!-- Header btns -->
+        <div class="header__btns">
+            <div class="header__menu-btn bx bx-menu"></div>
+            <div class="header__search-btn bx bx-search"></div>
+            <a href="login.html" class="header__user-btn bx bx-user-circle">
+            <a href="#" class="header__like-btn bx bx-heart">
+            <a href="cart.html" class="header__cart-btn bx bx-cart"></a>
+        </a>
+    </header>
+    <!-- Header end -->
+
+    <!-- Sidebar start -->
+    <div class="sidebar">
+        <div class="sidebar__overlay"></div>
+        <div class="sidebar__body">
+            <i class='sidebar__body-close bx bx-x'></i>
+            <div class="sidebar__user">
+                <img src="../assets/img/Sidebar/user-img.png" alt="User Image" class="sidebar__user-img">
+                <h3 class="sidebar__user-name">Dang Tuan Anh</h3>
+                <a href="#" class="sidebar__user-log">Log out</a>
+            </div>
+            <nav class="sidebar__navbar">
+                <a href="home.html" class="sidebar__navbar-item">
+                    <i class='sidebar__navbar-icon bx bx-chevron-right'></i>
+                    Home
+                </a>
+                <a href="about.html" class="sidebar__navbar-item">
+                    <i class='sidebar__navbar-icon bx bx-chevron-right'></i>
+                    About
+                </a>
+                <a href="products.html" class="sidebar__navbar-item">
+                    <i class='sidebar__navbar-icon bx bx-chevron-right'></i>
+                    Products
+                </a>
+                <a href="contact.html" class="sidebar__navbar-item">
+                    <i class='sidebar__navbar-icon bx bx-chevron-right'></i>
+                    Contact
+                </a>
+                <a href="login.html" class="sidebar__navbar-item">
+                    <i class='sidebar__navbar-icon bx bx-chevron-right'></i>
+                    Login
+                </a>
+                <a href="register.html" class="sidebar__navbar-item">
+                    <i class='sidebar__navbar-icon bx bx-chevron-right'></i>
+                    Register
+                </a>
+                <a href="cart.html" class="sidebar__navbar-item">
+                    <i class='sidebar__navbar-icon bx bx-chevron-right'></i>
+                    Cart
+                </a>
+            </nav>
+        </div>
+    </div>
+    <!-- Sidebar end -->
+
+    <!-- Home start -->
+    <section class="home">
+        <div class="swiper home__slides">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide home__slide">
+                    <img src="../assets/img/home/slider/home-img-1.jpg" alt="Home image" class="home__slide-img">
+                    <div class="home__content">
+                        <span class="home__content-sale">Upto 50% off</span>
+                        <h3 class="home__content-name">Smartphones</h3>
+                        <a href="#" class="btn home__content-btn">Shop now</a>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide home__slide">
+                    <img src="../assets/img/home/slider/home-img-2.jpg" alt="Home image" class="home__slide-img">
+                    <div class="home__content">
+                        <span class="home__content-sale">Upto 40% off</span>
+                        <h3 class="home__content-name">Smartwatchs</h3>
+                        <a href="#" class="btn home__content-btn">Shop now</a>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide home__slide">
+                    <img src="../assets/img/home/slider/home-img-3.jpg" alt="Home image" class="home__slide-img">
+                    <div class="home__content">
+                        <span class="home__content-sale">Upto 44% off</span>
+                        <h3 class="home__content-name">Headphones</h3>
+                        <a href="#" class="btn home__content-btn">Shop now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <!-- Home end -->
+
+    <!-- Banner start -->
+    <section class="banner">
+        <div class="banner__container">
+            <div class="grid">
+                <div class="row">
+                    <div class="col l-4 m-6 c-12">
+                        <a href="#" class="banner__box">
+                            <img src="../assets/img/home/banner/banner-1.jpg" alt="Banner image" class="banner__box-img">
+                            <div class="banner__box-content">
+                                <span class="banner__box-text">Special offer</span>
+                                <h3 class="banner__box-sale">Upto 50% off</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <a href="#" class="banner__box">
+                            <img src="../assets/img/home/banner/banner-2.jpg" alt="Banner image" class="banner__box-img">
+                            <div class="banner__box-content">
+                                <span class="banner__box-text">Special offer</span>
+                                <h3 class="banner__box-sale">Upto 40% off</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <a href="#" class="banner__box">
+                            <img src="../assets/img/home/banner/banner-3.jpg" alt="Banner image" class="banner__box-img">
+                            <div class="banner__box-content">
+                                <span class="banner__box-text">Special offer</span>
+                                <h3 class="banner__box-sale">Upto 44% off</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+            
+
+            
+
+            
+    </section>
+    <!-- Banner end -->
+
+    <!-- Arrivals start -->
+    <section class="arrival">
+        <h2 class="heading arrival__heading">New <span>arrivals</span></h2>
+        <div class="arrival__container">
+            <div class="grid">
+                <div class="row">
+                    <div class="col l-4 m-6 c-12">
+                        <div class="arrival__box">
+                            <div class="arrival__img-wrap">
+                                <img src="../assets/img/home/arrivals/arrival-1.jpg" alt="Arrivals image" class="arrival__img">
+                                <img src="../assets/img/home/arrivals/arrival-1-hover.jpg" alt="Arrivals image" class="arrival__img-hover">
+                            </div>
+
+                            <div class="arrival__content">
+                                <h3 class="arrival__content-heading">4K smart TV</h3>
+                                <div class="price arrival__content-price">$299 <span>$399</span></div>
+                                <div class="arrival__content-stars">
+                                    <i class='arrival__content-star bx bxs-star'></i>
+                                    <i class='arrival__content-star bx bxs-star'></i>
+                                    <i class='arrival__content-star bx bxs-star'></i>
+                                    <i class='arrival__content-star bx bxs-star'></i>
+                                    <i class='arrival__content-star bx bxs-star-half'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <div class="arrival__box">
+                            <div class="arrival__img-wrap">
+                                <img src="../assets/img/home/arrivals/arrival-2.jpg" alt="Arrivals image" class="arrival__img">
+                                <img src="../assets/img/home/arrivals/arrival-2-hover.jpg" alt="Arrivals image" class="arrival__img-hover">
+                            </div>
+
+                            <div class="arrival__content">
+                                <h3 class="arrival__content-heading">Lenovo laptop</h3>
+                                <div class="price arrival__content-price">$199 <span>$250</span></div>
+                                <div class="arrival__content-stars">
+                                    <i class='arrival__content-star bx bxs-star'></i>
+                                    <i class='arrival__content-star bx bxs-star'></i>
+                                    <i class='arrival__content-star bx bxs-star'></i>
+                                    <i class='arrival__content-star bx bxs-star'></i>
+                                    <i class='arrival__content-star bx bxs-star-half'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <div class="arrival__box">
+                            <div class="arrival__img-wrap">
+                                <img src="../assets/img/home/arrivals/arrival-3.jpg" alt="Arrivals image" class="arrival__img">
+                                <img src="../assets/img/home/arrivals/arrival-3-hover.jpg" alt="Arrivals image" class="arrival__img-hover">
+                            </div>
+
+                            <div class="arrival__content">
+                                <h3 class="arrival__content-heading">New smartphone</h3>
+                                <div class="price arrival__content-price">$99 <span>$199</span></div>
+                                <div class="arrival__content-stars">
+                                    <i class='arrival__content-star bx bxs-star'></i>
+                                    <i class='arrival__content-star bx bxs-star'></i>
+                                    <i class='arrival__content-star bx bxs-star'></i>
+                                    <i class='arrival__content-star bx bxs-star'></i>
+                                    <i class='arrival__content-star bx bxs-star-half'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <div class="arrival__box">
+                            <div class="arrival__img-wrap">
+                                <img src="../assets/img/home/arrivals/arrival-4.jpg" alt="Arrivals image" class="arrival__img">
+                                <img src="../assets/img/home/arrivals/arrival-4-hover.jpg" alt="Arrivals image" class="arrival__img-hover">
+                            </div>
+
+                            <div class="arrival__content">
+                                <h3 class="arrival__content-heading">New printer</h3>
+                                <div class="price arrival__content-price">$299 <span>$399</span></div>
+                                <div class="arrival__content-stars">
+                                    <i class='arrival__content-star bx bxs-star'></i>
+                                    <i class='arrival__content-star bx bxs-star'></i>
+                                    <i class='arrival__content-star bx bxs-star'></i>
+                                    <i class='arrival__content-star bx bxs-star'></i>
+                                    <i class='arrival__content-star bx bxs-star-half'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <div class="arrival__box">
+                            <div class="arrival__img-wrap">
+                                <img src="../assets/img/home/arrivals/arrival-5.jpg" alt="Arrivals image" class="arrival__img">
+                                <img src="../assets/img/home/arrivals/arrival-5-hover.jpg" alt="Arrivals image" class="arrival__img-hover">
+                            </div>
+
+                            <div class="arrival__content">
+                                <h3 class="arrival__content-heading">New headphones</h3>
+                                <div class="price arrival__content-price">$199 <span>$250</span></div>
+                                <div class="arrival__content-stars">
+                                    <i class='arrival__content-star bx bxs-star'></i>
+                                    <i class='arrival__content-star bx bxs-star'></i>
+                                    <i class='arrival__content-star bx bxs-star'></i>
+                                    <i class='arrival__content-star bx bxs-star'></i>
+                                    <i class='arrival__content-star bx bxs-star-half'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <div class="arrival__box">
+                            <div class="arrival__img-wrap">
+                                <img src="../assets/img/home/arrivals/arrival-6.jpg" alt="Arrivals image" class="arrival__img">
+                                <img src="../assets/img/home/arrivals/arrival-6-hover.jpg" alt="Arrivals image" class="arrival__img-hover">
+                            </div>
+
+                            <div class="arrival__content">
+                                <h3 class="arrival__content-heading">New speakers</h3>
+                                <div class="price arrival__content-price">$99 <span>$199</span></div>
+                                <div class="arrival__content-stars">
+                                    <i class='arrival__content-star bx bxs-star'></i>
+                                    <i class='arrival__content-star bx bxs-star'></i>
+                                    <i class='arrival__content-star bx bxs-star'></i>
+                                    <i class='arrival__content-star bx bxs-star'></i>
+                                    <i class='arrival__content-star bx bxs-star-half'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Arrivals end -->
+
+    <!-- Footer start -->
+    <footer class="footer">
+        <a href="home.html" class="footer__logo-link">
+            <i class='footer__logo-icon bx bx-store'></i>
+            Shopie
+        </a>
+
+        <div class="footer__navbar">
+            <a href="home.html" class="footer__navbar-item">Home</a>
+            <a href="about.html" class="footer__navbar-item">About</a>
+            <a href="products.html" class="footer__navbar-item">Products</a>
+            <a href="contact.html" class="footer__navbar-item">Contact</a>
+            <a href="login.html" class="footer__navbar-item">Login</a>
+            <a href="register.html" class="footer__navbar-item">Register</a>
+            <a href="cart.html" class="footer__navbar-item">Cart</a>
+        </div>
+
+        <div class="footer__media">
+            <a href="#" class='footer__media-link bx bxl-facebook-circle'></a>
+            <a href="#" class='footer__media-link bx bxl-youtube'></a>
+            <a href="#" class='footer__media-link bx bxl-linkedin-square'></a>
+            <a href="#" class='footer__media-link bx bxl-twitter'></a>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Footer bottom start -->
+    <section class="footer-bottom">
+        <p class="footer-bottom__copyright">Created by <span>Dang Tuan Anh</span> | All rights reserved!</p>
+        <img src="../assets/img/footer/card_img.png" alt="Credit image" class="footer-bottom__credit">
+    </section>
+    <!-- Footer bottom end -->
+
+    <!-- Swiper js link -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- Js link -->
+    <script src="../assets/main.js"></script>
+</body>
+</html>

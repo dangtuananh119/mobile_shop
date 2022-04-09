@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <!-- Icon link -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Swiper css link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    <!-- Css link -->
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/grid.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+<body>
+    <!-- Header start -->
+    <header class="header">
+        <!-- Header logo -->
+        <a href="home.html" class="header__logo-link">
+            <i class='header__logo-icon bx bx-store'></i>
+            Shopie
+        </a>
+        
+        <!-- Header search -->
+        <form action="" class="header__search-form">
+            <input type="search" name="" id="search-input" class="header__search-input" placeholder="Search here">
+            <label for="search-input" class="header__search-icon bx bx-search"></label>
+        </form>
+
+        <!-- Header btns -->
+        <div class="header__btns">
+            <div class="header__menu-btn bx bx-menu"></div>
+            <div class="header__search-btn bx bx-search"></div>
+            <a href="login.html" class="header__user-btn bx bx-user-circle">
+            <a href="#" class="header__like-btn bx bx-heart">
+            <a href="cart.html" class="header__cart-btn bx bx-cart"></a>
+        </a>
+    </header>
+    <!-- Header end -->
+
+    <!-- Sidebar start -->
+    <div class="sidebar">
+        <div class="sidebar__overlay"></div>
+        <div class="sidebar__body">
+            <i class='sidebar__body-close bx bx-x'></i>
+            <div class="sidebar__user">
+                <img src="../assets/img/Sidebar/user-img.png" alt="User Image" class="sidebar__user-img">
+                <h3 class="sidebar__user-name">Dang Tuan Anh</h3>
+                <a href="#" class="sidebar__user-log">Log out</a>
+            </div>
+            <nav class="sidebar__navbar">
+                <a href="home.html" class="sidebar__navbar-item">
+                    <i class='sidebar__navbar-icon bx bx-chevron-right'></i>
+                    Home
+                </a>
+                <a href="about.html" class="sidebar__navbar-item">
+                    <i class='sidebar__navbar-icon bx bx-chevron-right'></i>
+                    About
+                </a>
+                <a href="products.html" class="sidebar__navbar-item">
+                    <i class='sidebar__navbar-icon bx bx-chevron-right'></i>
+                    Products
+                </a>
+                <a href="contact.html" class="sidebar__navbar-item">
+                    <i class='sidebar__navbar-icon bx bx-chevron-right'></i>
+                    Contact
+                </a>
+                <a href="login.html" class="sidebar__navbar-item">
+                    <i class='sidebar__navbar-icon bx bx-chevron-right'></i>
+                    Login
+                </a>
+                <a href="register.html" class="sidebar__navbar-item">
+                    <i class='sidebar__navbar-icon bx bx-chevron-right'></i>
+                    Register
+                </a>
+                <a href="cart.html" class="sidebar__navbar-item">
+                    <i class='sidebar__navbar-icon bx bx-chevron-right'></i>
+                    Cart
+                </a>
+            </nav>
+        </div>
+    </div>
+    <!-- Sidebar end -->
+
+    <!-- Category start -->
+    <section class="category">
+        <h2 class="heading category__heading">Shop by <span>category</span></h2>
+
+        <div class="category__container">
+            <div class="grid">
+                <div class="row">
+                    <div class="col l-2 m-4 c-12">
+                        <a href="#" class="category__box">
+                            <img src="../assets/img/products/category/cat_img1.png" alt="Category image" class="category__box-img">
+                            <h3 class="category__box-name">Televisions</h3>
+                        </a>
+                    </div>
+
+                    <div class="col l-2 m-4 c-12">
+                        <a href="#" class="category__box">
+                            <img src="../assets/img/products/category/cat_img2.png" alt="Category image" class="category__box-img">
+                            <h3 class="category__box-name">Smartphones</h3>
+                        </a>
+                    </div>
+
+                    <div class="col l-2 m-4 c-12">
+                        <a href="#" class="category__box">
+                            <img src="../assets/img/products/category/cat_img3.png" alt="Category image" class="category__box-img">
+                            <h3 class="category__box-name">Headphones</h3>
+                        </a>
+                    </div>
+
+                    <div class="col l-2 m-4 c-12">
+                        <a href="#" class="category__box">
+                            <img src="../assets/img/products/category/cat_img4.png" alt="Category image" class="category__box-img">
+                            <h3 class="category__box-name">Smartwatches</h3>
+                        </a>
+                    </div>
+
+                    <div class="col l-2 m-4 c-12">
+                        <a href="#" class="category__box">
+                            <img src="../assets/img/products/category/cat_img5.png" alt="Category image" class="category__box-img">
+                            <h3 class="category__box-name">Game</h3>
+                        </a>
+                    </div>
+
+                    <div class="col l-2 m-4 c-12">
+                        <a href="#" class="category__box">
+                            <img src="../assets/img/products/category/cat_img6.png" alt="Category image" class="category__box-img">
+                            <h3 class="category__box-name">Camera</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Category end -->
+
+    <!-- Products start -->
+    <section class="product">
+        <h2 class="heading product__heading">Shop by <span>product</span></h2>
+
+        <div class="product__container">
+            <div class="grid">
+                <div class="row">
+                    <div class="col l-4 m-6 c-12">
+                        <div class="product__box">
+                            <div class="product__img-wrap">
+                                <img src="../assets/img/products/product/product-1.jpg" alt="Product image" class="product__img">
+                                <img src="../assets/img/products/product/product-1-hover.jpg" alt="Product image" class="product__img-hover">
+                                <div class="product__icons">
+                                    <a href="#" class="product__icon bx bx-cart"></a>
+                                    <a href="#" class="product__icon bx bx-search-alt"></a>
+                                    <a href="#" class="product__icon bx bx-heart"></a>
+                                    <a href="#" class="product__icon bx bx-share"></a>
+                                </div>
+                            </div>
+                            <div class="product__content">
+                                <h3 class="product__content-heading">Smartphone</h3>
+                                <p class="price product__content-price">$199 <span>$299</span></p>
+                                <div class="product__content-stars">
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star-half'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <div class="product__box">
+                            <div class="product__img-wrap">
+                                <img src="../assets/img/products/product/product-2.jpg" alt="Product image" class="product__img">
+                                <img src="../assets/img/products/product/product-2-hover.jpg" alt="Product image" class="product__img-hover">
+                                <div class="product__icons">
+                                    <a href="#" class="product__icon bx bx-cart"></a>
+                                    <a href="#" class="product__icon bx bx-search-alt"></a>
+                                    <a href="#" class="product__icon bx bx-heart"></a>
+                                    <a href="#" class="product__icon bx bx-share"></a>
+                                </div>
+                            </div>
+                            <div class="product__content">
+                                <h3 class="product__content-heading">Camera</h3>
+                                <p class="price product__content-price">$199 <span>$299</span></p>
+                                <div class="product__content-stars">
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star-half'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <div class="product__box">
+                            <div class="product__img-wrap">
+                                <img src="../assets/img/products/product/product-3.jpg" alt="Product image" class="product__img">
+                                <img src="../assets/img/products/product/product-3-hover.jpg" alt="Product image" class="product__img-hover">
+                                <div class="product__icons">
+                                    <a href="#" class="product__icon bx bx-cart"></a>
+                                    <a href="#" class="product__icon bx bx-search-alt"></a>
+                                    <a href="#" class="product__icon bx bx-heart"></a>
+                                    <a href="#" class="product__icon bx bx-share"></a>
+                                </div>
+                            </div>
+                            <div class="product__content">
+                                <h3 class="product__content-heading">Smart TV</h3>
+                                <p class="price product__content-price">$199 <span>$299</span></p>
+                                <div class="product__content-stars">
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star-half'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <div class="product__box">
+                            <div class="product__img-wrap">
+                                <img src="../assets/img/products/product/product-4.jpg" alt="Product image" class="product__img">
+                                <img src="../assets/img/products/product/product-4-hover.jpg" alt="Product image" class="product__img-hover">
+                                <div class="product__icons">
+                                    <a href="#" class="product__icon bx bx-cart"></a>
+                                    <a href="#" class="product__icon bx bx-search-alt"></a>
+                                    <a href="#" class="product__icon bx bx-heart"></a>
+                                    <a href="#" class="product__icon bx bx-share"></a>
+                                </div>
+                            </div>
+                            <div class="product__content">
+                                <h3 class="product__content-heading">Speaker</h3>
+                                <p class="price product__content-price">$199 <span>$299</span></p>
+                                <div class="product__content-stars">
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star-half'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <div class="product__box">
+                            <div class="product__img-wrap">
+                                <img src="../assets/img/products/product/product-5.jpg" alt="Product image" class="product__img">
+                                <img src="../assets/img/products/product/product-5-hover.jpg" alt="Product image" class="product__img-hover">
+                                <div class="product__icons">
+                                    <a href="#" class="product__icon bx bx-cart"></a>
+                                    <a href="#" class="product__icon bx bx-search-alt"></a>
+                                    <a href="#" class="product__icon bx bx-heart"></a>
+                                    <a href="#" class="product__icon bx bx-share"></a>
+                                </div>
+                            </div>
+                            <div class="product__content">
+                                <h3 class="product__content-heading">Speaker</h3>
+                                <p class="price product__content-price">$199 <span>$299</span></p>
+                                <div class="product__content-stars">
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star-half'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <div class="product__box">
+                            <div class="product__img-wrap">
+                                <img src="../assets/img/products/product/product-6.jpg" alt="Product image" class="product__img">
+                                <img src="../assets/img/products/product/product-6-hover.jpg" alt="Product image" class="product__img-hover">
+                                <div class="product__icons">
+                                    <a href="#" class="product__icon bx bx-cart"></a>
+                                    <a href="#" class="product__icon bx bx-search-alt"></a>
+                                    <a href="#" class="product__icon bx bx-heart"></a>
+                                    <a href="#" class="product__icon bx bx-share"></a>
+                                </div>
+                            </div>
+                            <div class="product__content">
+                                <h3 class="product__content-heading">Smartwatch</h3>
+                                <p class="price product__content-price">$199 <span>$299</span></p>
+                                <div class="product__content-stars">
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star-half'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <div class="product__box">
+                            <div class="product__img-wrap">
+                                <img src="../assets/img/products/product/product-7.jpg" alt="Product image" class="product__img">
+                                <img src="../assets/img/products/product/product-7-hover.jpg" alt="Product image" class="product__img-hover">
+                                <div class="product__icons">
+                                    <a href="#" class="product__icon bx bx-cart"></a>
+                                    <a href="#" class="product__icon bx bx-search-alt"></a>
+                                    <a href="#" class="product__icon bx bx-heart"></a>
+                                    <a href="#" class="product__icon bx bx-share"></a>
+                                </div>
+                            </div>
+                            <div class="product__content">
+                                <h3 class="product__content-heading">Headphone</h3>
+                                <p class="price product__content-price">$199 <span>$299</span></p>
+                                <div class="product__content-stars">
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star-half'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <div class="product__box">
+                            <div class="product__img-wrap">
+                                <img src="../assets/img/products/product/product-8.jpg" alt="Product image" class="product__img">
+                                <img src="../assets/img/products/product/product-8-hover.jpg" alt="Product image" class="product__img-hover">
+                                <div class="product__icons">
+                                    <a href="#" class="product__icon bx bx-cart"></a>
+                                    <a href="#" class="product__icon bx bx-search-alt"></a>
+                                    <a href="#" class="product__icon bx bx-heart"></a>
+                                    <a href="#" class="product__icon bx bx-share"></a>
+                                </div>
+                            </div>
+                            <div class="product__content">
+                                <h3 class="product__content-heading">Smartphone</h3>
+                                <p class="price product__content-price">$199 <span>$299</span></p>
+                                <div class="product__content-stars">
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star-half'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <div class="product__box">
+                            <div class="product__img-wrap">
+                                <img src="../assets/img/products/product/product-9.jpg" alt="Product image" class="product__img">
+                                <img src="../assets/img/products/product/product-9-hover.jpg" alt="Product image" class="product__img-hover">
+                                <div class="product__icons">
+                                    <a href="#" class="product__icon bx bx-cart"></a>
+                                    <a href="#" class="product__icon bx bx-search-alt"></a>
+                                    <a href="#" class="product__icon bx bx-heart"></a>
+                                    <a href="#" class="product__icon bx bx-share"></a>
+                                </div>
+                            </div>
+                            <div class="product__content">
+                                <h3 class="product__content-heading">Webcam</h3>
+                                <p class="price product__content-price">$199 <span>$299</span></p>
+                                <div class="product__content-stars">
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star'></i>
+                                    <i class='product__content-star bx bxs-star-half'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Products end -->
+
+    <!-- Banner start -->
+    <section class="banner">
+        <h2 class="heading banner__heading"><span>Deal</span> of the day</h2>
+        <div class="banner__container">
+            <div class="grid">
+                <div class="row">
+                    <div class="col l-6 m-12 c-12">
+                        <div class="banner__box product-banner__box">
+                            <img src="../assets/img/products/banner/product-banner-1.jpg" alt="Banner image" class="banner__box-img">
+                            <div class="banner__box-content product-banner__box-content">
+                                <span class="banner__box-text">Special offer</span>
+                                <h3 class="banner__box-sale">Upto 50% off</h3>
+                                <button class="btn banner__box-btn">Shop now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-6 m-12 c-12">
+                        <div class="banner__box product-banner__box">
+                            <img src="../assets/img/products/banner/product-banner-2.jpg" alt="Banner image" class="banner__box-img">
+                            <div class="banner__box-content  product-banner__box-content">
+                                <span class="banner__box-text">Special offer</span>
+                                <h3 class="banner__box-sale">Upto 44% off</h3>
+                                <button class="btn banner__box-btn">Shop now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner start -->
+
+    <!-- Footer start -->
+    <footer class="footer">
+        <a href="home.html" class="footer__logo-link">
+            <i class='footer__logo-icon bx bx-store'></i>
+            Shopie
+        </a>
+
+        <div class="footer__navbar">
+            <a href="home.html" class="footer__navbar-item">Home</a>
+            <a href="about.html" class="footer__navbar-item">About</a>
+            <a href="products.html" class="footer__navbar-item">Products</a>
+            <a href="contact.html" class="footer__navbar-item">Contact</a>
+            <a href="login.html" class="footer__navbar-item">Login</a>
+            <a href="register.html" class="footer__navbar-item">Register</a>
+            <a href="cart.html" class="footer__navbar-item">Cart</a>
+        </div>
+
+        <div class="footer__media">
+            <a href="#" class='footer__media-link bx bxl-facebook-circle'></a>
+            <a href="#" class='footer__media-link bx bxl-youtube'></a>
+            <a href="#" class='footer__media-link bx bxl-linkedin-square'></a>
+            <a href="#" class='footer__media-link bx bxl-twitter'></a>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Footer bottom start -->
+    <section class="footer-bottom">
+        <p class="footer-bottom__copyright">Created by <span>Dang Tuan Anh</span> | All rights reserved!</p>
+        <img src="../assets/img/footer/card_img.png" alt="Credit image" class="footer-bottom__credit">
+    </section>
+    <!-- Footer bottom end -->
+
+    <!-- Swiper js link -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- Js link -->
+    <script src="../assets/main.js"></script>
+</body>
+</html>
